@@ -37,7 +37,7 @@ const ProductDetails = ({ product, products }) => {
 
         <div className="product-detail-desc">
           <h1>{name}</h1>
-          <div className="reviews">
+          {/* <div className="reviews">
             <div>
               <AiFillStar />
               <AiFillStar />
@@ -48,17 +48,17 @@ const ProductDetails = ({ product, products }) => {
             <p>
               (20)
             </p>
-          </div>
+          </div> */}
           <h4>Details: </h4>
           <p>{details}</p>
-          <p className="price">${price}</p>
+          <p className="price">{price} tnd</p>
           <div className="quantity">
-            <h3>Quantity:</h3>
+            {/* <h3>Quantity:</h3>
             <p className="quantity-desc">
               <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
               <span className="num">{qty}</span>
               <span className="plus" onClick={incQty}><AiOutlinePlus /></span>
-            </p>
+            </p> */}
           </div>
           <div className="buttons">
             <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button>
