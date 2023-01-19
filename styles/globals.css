@@ -130,7 +130,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #aba9a9;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -633,6 +633,7 @@ margin-top: 160px;
     margin-top: 80px;
   }
   .footer-banner-image{
+    max-height: 100%;
     width: 77%;
     left: 30%;
     top: 6%;
